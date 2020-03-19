@@ -1,0 +1,133 @@
+<style>
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #323232;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #FF1E56;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #FFAC41;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #323232;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.perfil {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.linkedin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #FFAC90;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.box {
+/*  width: 600px; */       /* Set the width */
+  margin: 30 auto;
+  background: white;                         /* White background */
+  padding: 30px;                    /* Internal space */
+  border-radius: 15px;                        /* Small radius */
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.botao{
+
+    background-color: #FF1E56;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1)
+
+}
+
+.botao:hover {
+  background-color: #FFAC41;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+
+}
+
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+    padding: 0px 80px;
+  }
+}
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+    padding: 0px 80px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+    padding: 0px;
+  }
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.social-icon{
+  color: #FFAC90;
+  box-shadow: 0 0px 15px rgba(0,0,0,.1);
+  font-size: 32px;
+  margin: 8px 20px;
+
+}
+
+.social-icon:hover {
+  color: #FF1E56;
+  box-shadow: 0 0px 15px rgba(0,0,0,.2);
+}
+
+.wrapper {
+
+padding: 0px 110px;
+}
+
+
+
+</style>
